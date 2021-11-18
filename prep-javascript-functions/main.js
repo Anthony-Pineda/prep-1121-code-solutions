@@ -1,6 +1,6 @@
-function convertHoursToMinutes(hours) {
-  return 4 * 60;
+function getGreeting(name) {
+  return 'Hello World!';
 }
 
-var convertHoursToMinutesResult = convertHoursToMinutes(4);
-console.log('convertHoursToMinutes Exercise', convertHoursToMinutesResult);
+var getGreetingResult = getGreeting(name);
+console.log(getGreetingResult);
