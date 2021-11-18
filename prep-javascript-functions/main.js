@@ -1,6 +1,6 @@
-function subtractTwoNumbers(num1, num2) {
-  return num1 - num2;
+function getCircleCircumference(radius) {
+  return 2 * 3.1415 * 5;
 }
 
-var subtractTwoNumbersResult = subtractTwoNumbers(35, 10);
-console.log(subtractTwoNumbersResult);
+var getCircleCircumferenceResult = getCircleCircumference(5);
+console.log(getCircleCircumferenceResult);
