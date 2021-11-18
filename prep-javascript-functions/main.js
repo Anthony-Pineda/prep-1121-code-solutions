@@ -1,6 +1,6 @@
-function getCircleCircumference(radius) {
-  return 2 * 3.1415 * 5;
+function getFullName(firstName, lastName) {
+  return 'Anthony' + ' ' + 'Pineda';
 }
 
-var getCircleCircumferenceResult = getCircleCircumference(5);
-console.log(getCircleCircumferenceResult);
+var getFullNameResult = getFullName('Anthony', 'Pineda');
+console.log(getFullNameResult);
