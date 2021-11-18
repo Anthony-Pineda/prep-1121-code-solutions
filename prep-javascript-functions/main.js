@@ -1,6 +1,6 @@
-function getFullName(firstName, lastName) {
-  return 'Anthony' + ' ' + 'Pineda';
+function cube(number) {
+  return 5 * 5 * 5;
 }
 
-var getFullNameResult = getFullName('Anthony', 'Pineda');
-console.log(getFullNameResult);
+var cubeResult = cube(5);
+console.log(cubeResult);
