@@ -6,7 +6,7 @@ var addTwoNumbersResult = addTwoNumbers(2, 5);
 console.log(addTwoNumbersResult);
 
 function convertHoursToMinutes(hours) {
-  return 4 * 60;
+  return hours * 60;
 }
 var convertHoursToMinutesResult = convertHoursToMinutes(4);
 console.log(convertHoursToMinutesResult);
@@ -40,22 +40,22 @@ var subtractTwoNumbersResult = subtractTwoNumbers(35, 10);
 console.log(subtractTwoNumbersResult);
 
 function getCircleCircumference(radius) {
-  return 2 * Math.PI * 5;
+  return 2 * Math.PI * radius;
 }
 
 var getCircleCircumferenceResult = getCircleCircumference(5);
 console.log(getCircleCircumferenceResult);
 
-function cube(number) {
-  return 5 * 5 * 5;
-}
-
 function getFullName(firstName, lastName) {
-  return 'Anthony' + ' ' + 'Pineda';
+  return firstName + ' ' + lastName;
 }
 
 var getFullNameResult = getFullName('Anthony', 'Pineda');
 console.log(getFullNameResult);
+
+function cube(number) {
+  return number * number * number;
+}
 
 var cubeResult = cube(5);
 console.log(cubeResult);
